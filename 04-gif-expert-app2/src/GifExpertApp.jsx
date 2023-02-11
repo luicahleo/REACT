@@ -4,10 +4,9 @@ import { AddCategory } from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
 
 export const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["One Punch"]);
+  const [categories, setCategories] = useState([]);
 
   const onAddCategory = (newCategory) => {
-    console.log(newCategory);
 
     if (categories.includes(newCategory)) return;
 
