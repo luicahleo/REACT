@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import uuid from "react-uuid";
-import { AddCategory } from "./components/AddCategory";
-import { GifGrid } from "./components/GifGrid";
+import { AddCategory, GifGrid } from "./components";
 
 export const GifExpertApp = () => {
   const [categories, setCategories] = useState([]);
